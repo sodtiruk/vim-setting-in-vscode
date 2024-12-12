@@ -46,6 +46,27 @@
         "before": ["<leader>", "d"],
         "commands": ["workbench.action.focusRightGroup"]
     }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+    {
+        "before": ["<leader>", "1"],
+        "commands": ["workbench.action.openEditorAtIndex1"]
+    },
+    {
+        "before": ["<leader>", "2"],
+        "commands": ["workbench.action.openEditorAtIndex2"]
+    },
+    {
+        "before": ["<leader>", "3"],
+        "commands": ["workbench.action.openEditorAtIndex3"]
+    },
+    {
+        "before": ["<leader>", "4"],
+        "commands": ["workbench.action.openEditorAtIndex4"]
+    },
+    {
+        "before": ["<leader>", "5"],
+        "commands": ["workbench.action.openEditorAtIndex5"]
+    }
     ]
-
 }
