@@ -1,12 +1,14 @@
+"Install plugins easymotion
+set easymotion
+set relativenumber
+
 let mapleader = " "
 nnoremap <Leader>w :w<CR>
 nnoremap <Leader>q :q<CR>
 nnoremap <Leader>f :action GotoFile<CR>
 
-
 nnoremap <Leader>vs :vs<CR>
 nnoremap <Leader>sv :sp<CR>
-
 
 nnoremap <Leader>k <C-w>k
 nnoremap <Leader>j <C-w>j
