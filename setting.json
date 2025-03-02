@@ -1,15 +1,10 @@
 {
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Material Theme Darker",
     "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
     "editor.fontLigatures": true,
     "vim.easymotion": true,
     "vim.leader": " ",
     "vim.normalModeKeyBindings": [
-    {
-        "before": ["<leader>", "w"],
-        "commands": ["workbench.action.files.save"]
-    },
     {
         "before": ["<leader>", "t"],
         "commands": ["workbench.action.terminal.toggleTerminal"]
@@ -19,33 +14,45 @@
         "commands": ["workbench.view.explorer"]
     },
     {
+        "before": ["<leader>", "b"],
+        "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    {
+        "before": ["<leader>", "w"],
+        "commands": ["workbench.action.files.save"]
+    },
+    {
         "before": ["<leader>", "q"],
         "commands": ["workbench.action.closeActiveEditor"]
     },
     {
-        "before": ["<leader>", "b"],
-        "commands": ["workbench.action.toggleSidebarVisibility"]
+        "before": ["<leader>", "f"],
+        "commands": ["workbench.action.quickOpen"]
+    },
+    {
+        "before": ["<leader>", "k"],
+        "commands": ["workbench.action.focusAboveGroup"]
+    },
+    {
+        "before": ["<leader>", "j"],
+        "commands": ["workbench.action.focusBelowGroup"]
+    },
+    {
+        "before": ["<leader>", "h"],
+        "commands": ["workbench.action.focusLeftGroup"]
+    },
+    {
+        "before": ["<leader>", "l"],
+        "commands": ["workbench.action.focusRightGroup"]
     },
     {
         "before": ["<leader>", "v"],
         "commands": ["workbench.action.splitEditorRight"]
     },
     {
-        "before": ["<leader>", "l"],
-        "commands": ["workbench.action.nextEditor"]
+        "before": ["<leader>", "s"],
+        "commands": ["workbench.action.splitEditorDown"]
     },
-    {
-        "before": ["<leader>", "h"],
-        "commands": ["workbench.action.previousEditor"]
-    },
-    {
-        "before": ["<leader>", "a"],
-        "commands": ["workbench.action.focusLeftGroup"]
-    },
-    {
-        "before": ["<leader>", "d"],
-        "commands": ["workbench.action.focusRightGroup"]
-    }
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
     {
@@ -67,6 +74,14 @@
     {
         "before": ["<leader>", "5"],
         "commands": ["workbench.action.openEditorAtIndex5"]
-    }
-    ]
+    },
+    {
+        "before": ["<C-h>"],
+        "commands": ["workbench.action.previousEditor"]
+    },
+    {
+        "before": ["<C-l>"],
+        "commands": ["workbench.action.nextEditor"]
+    },
+    ],
 }
